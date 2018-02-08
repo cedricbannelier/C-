@@ -1,0 +1,1 @@
+Pour la librairie graphique il est prévu qu'on utilise Qt et une librairie graphique appelée Irrlicht.
