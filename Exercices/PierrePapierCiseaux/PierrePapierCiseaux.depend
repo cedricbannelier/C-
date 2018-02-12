@@ -10,3 +10,14 @@
 
 1518448815 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\joueuretennemis.h
 
+1518450142 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\jeu.cpp
+	"jeu.h"
+
+1518449547 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\jeu.h
+	"perso.h"
+
+1518449027 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\perso.h
+
+1518449145 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\perso.cpp
+	"perso.h"
+
