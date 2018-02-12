@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1518448278 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"joueuretennemis.h"
+
+1518448694 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\joueuretennemis.cpp
+	"joueuretennemis.h"
+
+1518448815 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\joueuretennemis.h
+

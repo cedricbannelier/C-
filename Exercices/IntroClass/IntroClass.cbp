@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IntroClass" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/IntroClass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/IntroClass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/carrees.h" />
+		<Unit filename="include/formegeometrique.h" />
+		<Unit filename="include/quadrilateres.h" />
+		<Unit filename="include/rectangles.h" />
+		<Unit filename="include/triangles.h" />
+		<Unit filename="include/trianglesisocele.h" />
+		<Unit filename="include/trianglesisocelerectangles.h" />
+		<Unit filename="include/trianglesrectangles.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/carrees.cpp" />
+		<Unit filename="src/formegeometrique.cpp" />
+		<Unit filename="src/quadrilateres.cpp" />
+		<Unit filename="src/rectangles.cpp" />
+		<Unit filename="src/triangles.cpp" />
+		<Unit filename="src/trianglesisocele.cpp" />
+		<Unit filename="src/trianglesisocelerectangles.cpp" />
+		<Unit filename="src/trianglesrectangles.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

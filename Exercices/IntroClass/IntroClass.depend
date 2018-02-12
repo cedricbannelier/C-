@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1518443066 source:d:\documentcedric\dev\git\c++\exercices\introclass\main.cpp
+	<iostream>
+	"carrees.h"
+	"rectangles.h"
+	"triangles.h"
+	"trianglesisocelerectangles.h"
+
+1518424200 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\maclasse.cpp
+	"maclasse.h"
+
+1518424192 d:\documentcedric\dev\git\c++\exercices\introclass\include\maclasse.h
+
+1518428500 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\formegeometrique.cpp
+	"formegeometrique.h"
+
+1518428933 d:\documentcedric\dev\git\c++\exercices\introclass\include\formegeometrique.h
+
+1518429229 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\quadrilateres.cpp
+	"quadrilateres.h"
+
+1518429351 d:\documentcedric\dev\git\c++\exercices\introclass\include\quadrilateres.h
+	"formegeometrique.h"
+
+1518430495 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\rectangles.cpp
+	"rectangles.h"
+
+1518430395 d:\documentcedric\dev\git\c++\exercices\introclass\include\rectangles.h
+	"quadrilateres.h"
+
+1518432766 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\carrees.cpp
+	"carrees.h"
+
+1518431553 d:\documentcedric\dev\git\c++\exercices\introclass\include\carrees.h
+	"rectangles.h"
+
+1518440981 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\triangles.cpp
+	"triangles.h"
+
+1518439124 d:\documentcedric\dev\git\c++\exercices\introclass\include\triangles.h
+	"formegeometrique.h"
+
+1518440508 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\trianglesrectangles.cpp
+	"trianglesrectangles.h"
+
+1518439870 d:\documentcedric\dev\git\c++\exercices\introclass\include\trianglesrectangles.h
+	"triangles.h"
+
+1518438851 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\trianglesisocele.cpp
+	"trianglesisocele.h"
+
+1518438875 d:\documentcedric\dev\git\c++\exercices\introclass\include\trianglesisocele.h
+	"triangles.h"
+
+1518439627 source:d:\documentcedric\dev\git\c++\exercices\introclass\src\trianglesisocelerectangles.cpp
+	"trianglesisocelerectangles.h"
+
+1518442061 d:\documentcedric\dev\git\c++\exercices\introclass\include\trianglesisocelerectangles.h
+	"trianglesisocele.h"
+	"trianglesrectangles.h"
+
