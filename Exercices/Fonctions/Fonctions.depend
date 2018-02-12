@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518251142 source:e:\programmation\cplusplus\exercices\fonctions\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518245180 source:e:\programmation\cplusplus\exercices\trouvernombre\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
