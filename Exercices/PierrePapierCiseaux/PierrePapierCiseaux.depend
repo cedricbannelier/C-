@@ -1,23 +1,35 @@
 # depslib dependency file v1.0
-1518448278 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\main.cpp
-	<iostream>
-	<time.h>
-	<stdlib.h>
-	"joueuretennemis.h"
+1518511550 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\main.cpp
+	"jeu.h"
 
 1518448694 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\joueuretennemis.cpp
 	"joueuretennemis.h"
 
 1518448815 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\joueuretennemis.h
 
-1518450142 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\jeu.cpp
+1518515763 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\jeu.cpp
 	"jeu.h"
+	"combat.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
 
-1518449547 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\jeu.h
+1518517619 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\jeu.h
 	"perso.h"
+	"combat.h"
 
-1518449027 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\perso.h
+1518510009 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\perso.h
 
 1518449145 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\perso.cpp
 	"perso.h"
+
+1518516266 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\combat.cpp
+	"combat.h"
+	"perso.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1518517505 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\combat.h
+	"jeu.h"
 

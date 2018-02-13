@@ -11,12 +11,12 @@ class Perso
 
         bool estVivant();
         void perdPdv();
+        int choix;
 
     protected:
 
     private:
         int pdv;
-        int choix;
 };
 
 #endif // PERSO_H

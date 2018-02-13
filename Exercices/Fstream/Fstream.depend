@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1518527627 source:d:\documentcedric\dev\git\c++\exercices\fstream\main.cpp
+	<iostream>
+	<fstream>
+

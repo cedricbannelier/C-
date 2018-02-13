@@ -2,6 +2,7 @@
 #define JEU_H
 
 #include "perso.h"
+#include "combat.h"
 
 class Jeu
 {
@@ -17,6 +18,7 @@ class Jeu
         int cptEnnemi = 0;
 
         bool jeuTermine();
+        Combat * rencontre;
 };
 
 #endif // JEU_H
