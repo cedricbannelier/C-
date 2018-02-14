@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1518536092 source:d:\documentcedric\dev\git\c++\exercices\pendu\main.cpp
+1518598694 source:d:\documentcedric\dev\git\c++\exercices\pendu\main.cpp
 	<iostream>
 	<fstream>
 	<string>
+	<cstring>
 	<time.h>
 	<stdlib.h>
 

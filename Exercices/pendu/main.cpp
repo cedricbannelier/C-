@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cstring>
 #include <time.h>
 #include <stdlib.h>
 
@@ -13,10 +14,12 @@ int main()
     int borneMin = 1;
     int borneMax = 10;
     string motADeviner;
-    string choixLettreJoueur;
+    string lettreAsotcker[motADeviner.length()];
     string lignelue;
+    char choixLettreJoueur;
     int i = 0;
     nombreAleatoire = rand()%(borneMax-borneMin+1)+borneMin;
+    int nombreEssaie = 10;
 
     string tableau[10];
     std::fstream file("pendu.txt", std::fstream::in);
@@ -28,14 +31,39 @@ int main()
     }
 
     //Selection d'un mot aléatoire
-    std::string motADevenier = tableau[nombreAleatoire];
-    cout << "*** TEST *** Le mot a devenier : " << motADevenier << "\n" << endl;
-    motADevenier.c_str();
+    motADeviner = tableau[nombreAleatoire];
 
-    //Joueur rentre une lettre
-    cout << "Merci de choisir une lettre : ";
-    cin >> choixLettreJoueur;
-    choixLettreJoueur.find(choixLettreJoueur);
+    cout << "*** TEST *** Le mot a devenier : " << motADeviner << "\n" << endl;
+
+            cout << "Vous avez : " << nombreEssaie;
+        cout << "Merci de choisir une lettre : ";
+        cin >> choixLettreJoueur;
+
+        for (int j=0; j<motADeviner.length(); j++)
+        {
+            if(choixLettreJoueur == motADeviner[j])
+            {
+                cout << motADeviner[j];
+            }
+            else
+            {
+                cout << "-";
+            }
+        }
+
+
 
     return 0;
 }
+
+//    if (motADeviner.find(choixLettreJoueur)!=string::npos)
+//    {
+//        Au moins une occurrence
+//        cout << "trouvé";
+//    }
+//    else
+//    {
+//        Pas d'occurrence
+//        cout << "fail";
+//    }
+

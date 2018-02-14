@@ -7,6 +7,7 @@
 
 1518448815 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\joueuretennemis.h
 
+<<<<<<< HEAD
 1518515763 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\jeu.cpp
 	"jeu.h"
 	"combat.h"
@@ -19,10 +20,20 @@
 	"combat.h"
 
 1518510009 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\perso.h
+=======
+1518450142 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\jeu.cpp
+	"jeu.h"
+
+1518449547 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\jeu.h
+	"perso.h"
+
+1518449027 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\perso.h
+>>>>>>> f1b97641ff28d7549f4c5623f01f6c71e52b7d26
 
 1518449145 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\perso.cpp
 	"perso.h"
 
+<<<<<<< HEAD
 1518516266 source:d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\src\combat.cpp
 	"combat.h"
 	"perso.h"
@@ -33,3 +44,5 @@
 1518517505 d:\documentcedric\dev\git\c++\exercices\pierrepapierciseaux\include\combat.h
 	"jeu.h"
 
+=======
+>>>>>>> f1b97641ff28d7549f4c5623f01f6c71e52b7d26
