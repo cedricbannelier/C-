@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1518621560 source:d:\documentcedric\dev\git\c++\exercices\listtri\main.cpp
+	<iostream>
+	<list>
+	<time.h>
+	<stdlib.h>
+

@@ -4,41 +4,42 @@
 #include <time.h>
 #include <stdlib.h>
 #include <math.h>
+#include <vector>
 
 using namespace std;
 
 int main()
 {
-    string motsDico[10];
+//  string motsDico[10];
+    vector<string> motsDicoVector;
     string ligneLue;
     fstream file;
     string motSecret;
     string motSecretAffiche;
     char saisie;
-    int flagTrouve = 0;
+//    int flagTrouve = 0;
     int nbChances = 7;
     bool charTrouve;
 
     //Charger les mots dans le tableau
     file.open("dictionnaire.txt", fstream::in);
 
-    int i = 0;
-    while (getline(file, ligneLue) && i<10)
+    while (getline(file, ligneLue))
     {
-        motsDico[i] = ligneLue;
-        i++;
+        motsDicoVector.push_back(ligneLue);
     }
+    file.close();
 
     //Sélection d'un mot au hasard
     srand(time(NULL));
-    motSecret = motsDico[rand()%10];
+    motSecret = motsDicoVector[rand()%motsDicoVector.size()];
 
     cout << motSecret << endl;
 
     //Début de la partie
 
     //Construire le mot secret affiché
-    for (int j=0; j<motSecret.length(); j++)
+    for (unsigned j=0; j<motSecret.length(); j++)
     {
         motSecretAffiche.push_back('-');
     }
@@ -52,7 +53,7 @@ int main()
         charTrouve = false;
 
         //Recherche de la présence du caractère dans le mot
-        for (int j=0; j<motSecret.length(); j++)
+        for (unsigned j=0; j<motSecret.length(); j++)
         {
             if (saisie == motSecret[j])
             {
