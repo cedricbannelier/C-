@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1518699195 source:d:\documentcedric\dev\git\c++\exercices\ecriturefichier\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+

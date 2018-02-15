@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1518703625 source:d:\documentcedric\dev\git\c++\exercices\pileouface\src\joueur.cpp
+	"joueur.h"
+	"vector"
+	<time.h>
+	<stdlib.h>
+
+1518703619 d:\documentcedric\dev\git\c++\exercices\pileouface\include\joueur.h
+
+1518703213 source:d:\documentcedric\dev\git\c++\exercices\pileouface\main.cpp
+	<iostream>
+	<joueur.h>
+	<vector>
+
+1518700666 source:d:\documentcedric\dev\git\c++\exercices\pileouface\src\jeu.cpp
+	"jeu.h"
+	<time.h>
+	<stdlib.h>
+
+1518700928 d:\documentcedric\dev\git\c++\exercices\pileouface\include\jeu.h
+	<joueur.h>
+

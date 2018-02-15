@@ -21,10 +21,9 @@ class Jeu
         int cptEnnemi = 0;
 
         bool jeuTermine();
-<<<<<<< HEAD
+
         Combat * rencontre;
-=======
->>>>>>> f1b97641ff28d7549f4c5623f01f6c71e52b7d26
+
 };
 
 #endif // JEU_H

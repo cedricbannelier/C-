@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1518688318 source:d:\documentcedric\dev\git\c++\exercices\classesvehicule\main.cpp
+	<iostream>
+	"moto.h"
+	"voiture.h"
+	"vehicule.h"
+
+1518688309 source:d:\documentcedric\dev\git\c++\exercices\classesvehicule\src\vehicule.cpp
+	"vehicule.h"
+	"iostream"
+
+1518688008 d:\documentcedric\dev\git\c++\exercices\classesvehicule\include\vehicule.h
+
+1518684861 d:\documentcedric\dev\git\c++\exercices\classesvehicule\include\moto.h
+	"bicycle.h"
+
+1518683235 d:\documentcedric\dev\git\c++\exercices\classesvehicule\include\voiture.h
+	"vehicule.h"
+
+1518683673 source:d:\documentcedric\dev\git\c++\exercices\classesvehicule\src\moto.cpp
+	"moto.h"
+
+1518683673 source:d:\documentcedric\dev\git\c++\exercices\classesvehicule\src\voiture.cpp
+	"voiture.h"
+
+1518684822 d:\documentcedric\dev\git\c++\exercices\classesvehicule\include\bicycle.h
+	"vehicule.h"
+
+1518684861 source:d:\documentcedric\dev\git\c++\exercices\classesvehicule\src\bicycle.cpp
+	"bicycle.h"
+
+1518684803 source:d:\documentcedric\dev\git\c++\exercices\classesvehicule\src\velo.cpp
+	"velo.h"
+
+1518684860 d:\documentcedric\dev\git\c++\exercices\classesvehicule\include\velo.h
+	"bicycle.h"
+

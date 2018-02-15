@@ -59,3 +59,58 @@
 	"trianglesisocele.h"
 	"trianglesrectangles.h"
 
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\main.cpp
+	<iostream>
+	"carrees.h"
+	"rectangles.h"
+	"triangles.h"
+	"trianglesisocelerectangles.h"
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\carrees.h
+	"rectangles.h"
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\rectangles.h
+	"quadrilateres.h"
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\quadrilateres.h
+	"formegeometrique.h"
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\formegeometrique.h
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\triangles.h
+	"formegeometrique.h"
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\trianglesisocelerectangles.h
+	"trianglesisocele.h"
+	"trianglesrectangles.h"
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\trianglesisocele.h
+	"triangles.h"
+
+1518679822 d:\documentcedric\dev\git\cplusplus\exercices\introclass\include\trianglesrectangles.h
+	"triangles.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\carrees.cpp
+	"carrees.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\formegeometrique.cpp
+	"formegeometrique.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\quadrilateres.cpp
+	"quadrilateres.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\rectangles.cpp
+	"rectangles.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\triangles.cpp
+	"triangles.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\trianglesisocele.cpp
+	"trianglesisocele.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\trianglesisocelerectangles.cpp
+	"trianglesisocelerectangles.h"
+
+1518679822 source:d:\documentcedric\dev\git\cplusplus\exercices\introclass\src\trianglesrectangles.cpp
+	"trianglesrectangles.h"
+
