@@ -2,6 +2,7 @@
 #include <vector>
 #include <stdlib.h>
 #include <time.h>
+#include <iterator>
 
 #include "joueur.h"
 
@@ -18,6 +19,7 @@ int main()
     srand(time(NULL));
 
     vector<Joueur*> mesJoueurs;
+    vector<Joueur*>::iterator it;
     int nbJ;
     int jetPiece;
     bool gagne = false;
@@ -31,7 +33,7 @@ int main()
     while(nbJ<2 || nbJ>10);
 
     //Remplir le vecteur
-    for (int i=0; i<nbJ; i++)
+    for (int i =0; i<nbJ; i++)
     {
         mesJoueurs.push_back(new Joueur());
     }
@@ -40,10 +42,12 @@ int main()
     while(true)
     {
         //Chaque joueur choisit pile ou face
-        for (int i=0; i<mesJoueurs.size(); i++)
+
+
+        for (it = mesJoueurs.begin(); it !=mesJoueurs.end(); ++it)
         {
             //Version fonction
-            choix(mesJoueurs[i]);
+            choix(*it);
             //Version methode
             //mesJoueurs[i]->choisirPF();
         }
