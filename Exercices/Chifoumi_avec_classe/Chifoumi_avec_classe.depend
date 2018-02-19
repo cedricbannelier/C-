@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1519054173 source:d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\src\jeu.cpp
+	<iostream>
+	"jeu.h"
+	"joueur.h"
+	"humain.h"
+	"ia.h"
+
+1519053061 d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\include\jeu.h
+	"joueur.h"
+	"manche.h"
+
+1519051576 d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\include\joueur.h
+
+1519046914 source:d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\src\joueur.cpp
+	<iostream>
+	"joueur.h"
+
+1519053679 source:d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\src\manche.cpp
+	"manche.h"
+	"humain.h"
+	"ia.h"
+	<iostream>
+
+1519053722 d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\include\manche.h
+	"jeu.h"
+
+1519053798 source:d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\main.cpp
+	"jeu.h"
+
+1519051812 source:d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\src\humain.cpp
+	"humain.h"
+	<iostream>
+
+1519051725 d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\include\humain.h
+	"joueur.h"
+
+1519051967 source:d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\src\ia.cpp
+	"ia.h"
+	<stdlib.h>
+
+1519051812 d:\documentcedric\dev\git\c-base\chifoumi_avec_classe\include\ia.h
+	"joueur.h"
+
