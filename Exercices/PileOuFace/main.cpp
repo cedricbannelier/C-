@@ -38,6 +38,11 @@ int main()
         mesJoueurs.push_back(new Joueur());
     }
 
+        for (unsigned i = 0; i<3; i++)
+    {
+        cout << mesJoueurs[i] << endl;
+    }
+
     //On continue la partie tant que personne n'a gagné
     while(true)
     {
