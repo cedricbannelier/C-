@@ -146,14 +146,4 @@ bool database::deleteProduit(int id)
     sqlite3_finalize(stmt);
 
     return true;
-
 }
-
-
-
-
-
-
-
-
-
