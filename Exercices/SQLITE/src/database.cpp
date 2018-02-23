@@ -133,6 +133,21 @@ bool database::updateProduit(Produit* produit)
     return true;
 }
 
+bool database::deleteProduit(int id)
+{
+    std::string query = "DELETE FROM produits WHERE rowid=?";
+
+    sqlite3_stmt * stmt;
+    sqlite3_prepare_v2(db, query.c_str(), strlen(query.c_str())+1, &stmt, NULL);
+
+    sqlite3_bind_int(stmt, 1, id);
+
+    sqlite3_step(stmt);
+    sqlite3_finalize(stmt);
+
+    return true;
+
+}
 
 
 

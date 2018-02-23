@@ -28,6 +28,8 @@ int main()
 
 //    bdd.supprimerProduit(3);
 
+    bdd.deleteProduit((*produits)[0]->id);
+
 //    bdd.majProduit("Avocat",4);
 
     bdd.closeDatabase();

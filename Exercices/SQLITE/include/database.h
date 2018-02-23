@@ -24,6 +24,8 @@ class database
 
         bool updateProduit(Produit* produit);
 
+        bool deleteProduit(int id);
+
         std::vector<Produit*>* getAllProduits();
     protected:
 
